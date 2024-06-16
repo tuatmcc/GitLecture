@@ -15,6 +15,29 @@
 ![GitHubの画像](./github.png)
 
 # Gitクライアントのインストール
+## Windowsへのインストール
+1. [Git公式サイト](https://git-scm.com/)からWindows用のインストーラーをダウンロードします。
+2. ダウンロードしたインストーラーを実行し、画面の指示に従ってインストールします。
+
+## Macへのインストール
+1. ターミナルを開きます。
+2. 以下のコマンドを実行してHomebrewを使用してインストールします。
+    ```sh
+    brew install git
+    ```
+
+## Linuxへのインストール
+1. ターミナルを開きます。
+2. ディストリビューションに応じて以下のコマンドを実行します。
+    - Debian/Ubuntu系:
+      ```sh
+      sudo apt-get install git
+      ```
+    - Fedora:
+      ```sh
+      sudo dnf install git
+      ```
+
 Gitを使うためには, まずGitクライアントをインストールする必要があります. [Gitのダウンロードページ](https://git-scm.com/downloads)からダウンロードして, ダウンロードしたファイルを開いて指示に従ってインストールしてください.
 ![Gitの画像](./git.png)
 
