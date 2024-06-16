@@ -20,18 +20,18 @@
 ### Fork
 1. `Branch`ボタンを押します。
 ![Fork-Branch](./images/fork/branch.png)
-2. `Branch name`に`dev/feature/<GitHubでの名前>`を入力します。`<GitHubでの名前>`の部分は自分のGitHubのアカウント名に**置き換えてください**。
+2. `Branch name`に`dev/feature/<GitHubのアカウント名>`を入力します。`<GitHubのアカウント名>`の部分は自分のGitHubのアカウント名に**置き換えてください**。
 ![Fork-branch](./images/fork/branch2.png)
 
 ### コマンド
-※`<GitHubでの名前>`の部分は自分のGitHubのアカウント名に**置き換えてください**。
+※`<GitHubのアカウント名>`の部分は自分のGitHubのアカウント名に**置き換えてください**。
 1. 新しいブランチを作成します。
     ```sh
-    git branch dev/feature/<GitHubでの名前>
+    git branch dev/feature/<GitHubのアカウント名>
     ```
 2. 作成したブランチに切り替えます。
     ```
-    git switch dev/feature/<GitHubでの名前>
+    git switch dev/feature/<GitHubのアカウント名>
     ```
 
 ![ブランチの作成と切り替え](./images/branch.png)
@@ -84,4 +84,4 @@
 
 ---
 
-この資料では、Gitリポジトリのクローンから始まり、ブランチの作成、ファイルの追加とステージング、コミット、リモートリポジトリへのプッシュまでの基本操作について説明しました。次のステップとして、マージの操作を学んでいきましょう。
+この資料では、Gitリポジトリのクローンから始まり、ブランチの作成、ファイルの追加とステージング、コミット、リモートリポジトリへのプッシュまでの基本操作について説明しました。次のステップとして、プルリクエストとマージの操作を学んでいきましょう。
